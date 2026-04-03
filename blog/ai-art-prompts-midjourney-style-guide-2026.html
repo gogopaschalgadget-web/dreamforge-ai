@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Art Prompts That Work in 2026: A Complete Midjourney Style Guide</title>
+<meta name="description" content="How to write AI art prompts that actually produce what you want. Midjourney v7, free tools, style techniques, and prompt structures that work in 2026.">
+<style>
+  body { font-family: Georgia, serif; max-width: 780px; margin: 0 auto; padding: 20px 24px; color: #222; line-height: 1.75; }
+  h1 { font-size: 1.9em; color: #1a1a3a; margin-bottom: 0.3em; }
+  h2 { font-size: 1.3em; color: #1a1a3a; margin-top: 2em; border-bottom: 2px solid #9090d0; padding-bottom: 6px; }
+  h3 { font-size: 1.05em; color: #2a2a4a; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  .code-box { background: #1a1a2a; color: #c0d0f0; padding: 14px 18px; margin: 1.2em 0; border-radius: 6px; font-family: monospace; font-size: 0.9em; line-height: 1.6; overflow-x: auto; }
+  .tip-box { background: #eeeeff; border-left: 4px solid #5050c0; padding: 14px 18px; margin: 1.5em 0; border-radius: 0 4px 4px 0; }
+  .style-card { background: #f5f5ff; border: 1px solid #c0c0e8; border-radius: 6px; padding: 16px 20px; margin: 1em 0; }
+  .style-card h3 { margin-top: 0; color: #1a1a3a; }
+  .cta-box { background: #1a1a3a; color: #fff; padding: 20px 24px; border-radius: 6px; margin: 2em 0; text-align: center; }
+  .cta-box a { color: #f0c040; font-weight: bold; text-decoration: none; }
+  .cta-box p { margin: 0.4em 0; font-size: 0.92em; color: #9090d0; }
+  nav { background: #1a1a3a; padding: 10px 16px; margin-bottom: 24px; border-radius: 4px; }
+  nav a { color: #f0c040; text-decoration: none; font-size: 0.9em; margin-right: 16px; }
+  footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ddd; font-size: 0.85em; color: #666; }
+  table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.93em; }
+  th { background: #2a2a4a; color: #fff; padding: 9px 12px; text-align: left; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e5e5e5; }
+  tr:nth-child(even) td { background: #f8f8ff; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/">DreamForge AI</a>
+  <a href="/tools/">Tools</a>
+  <a href="/blog/">Blog</a>
+</nav>
+
+<h1>AI Art Prompts That Work in 2026: A Complete Midjourney Style Guide</h1>
+<p class="meta">DreamForge AI | April 2026 | 12 min read</p>
+
+<p>The difference between a mediocre AI image and a stunning one almost always comes down to the prompt. Not the model. Not the settings. The prompt. The same image generator that produces generic, forgettable outputs for most users will produce gallery-quality work for someone who understands how to communicate with it.</p>
+
+<p>This guide covers how to write AI art prompts that actually work in 2026, with specific techniques for Midjourney v7, plus free alternatives you can use without a subscription. Everything here is based on documented prompt structures and real examples, not theory.</p>
+
+<h2>How AI Art Prompts Work: The Mental Model You Need</h2>
+
+<p>AI image models do not "read" your prompt the way a human would. They match the words and phrases in your prompt to patterns learned during training. This means specificity almost always beats generality, and visual language beats conceptual language.</p>
+
+<p>"A beautiful landscape" produces something. "A fog-covered mountain valley at dawn, golden hour light, mist in the foreground, watercolor painting style, soft edges, muted blues and greens" produces something specific. The second prompt gives the model enough signal to converge on what you actually want rather than averaging across all landscapes it has ever seen.</p>
+
+<p>The core insight: every word in your prompt is a weight that pulls the output in a direction. Weak, vague words pull weakly. Specific, descriptive words pull hard. Use fewer words but make them count.</p>
+
+<h2>Prompt Structure: The Four-Part Framework</h2>
+
+<p>Every effective AI art prompt has four components. You do not always need all four, but knowing what each does helps you add the right pieces when your output is missing something.</p>
+
+<div class="style-card">
+<h3>Part 1: Subject</h3>
+<p>What is in the image? Be specific about the main subject, its action or pose, and any notable characteristics. "A woman reading" is weak. "A young woman in Victorian dress, sitting in a leather armchair, reading by firelight, glasses perched on her nose, absorbed in a thick leather-bound book" gives the model much more to work with.</p>
+</div>
+
+<div class="style-card">
+<h3>Part 2: Setting and Atmosphere</h3>
+<p>Where is this happening? What does the environment look like? What is the mood? Atmosphere words like "melancholy", "serene", "tense", "ethereal" work well as mood anchors when combined with specific visual descriptions of the environment.</p>
+</div>
+
+<div class="style-card">
+<h3>Part 3: Style Reference</h3>
+<p>What visual tradition does this belong to? Photography, oil painting, watercolor, digital illustration, concept art, woodblock print, studio photography, Polaroid, 35mm film, cinematic still. Naming a specific artist or style ("in the style of Art Deco illustration", "like a National Geographic photograph") gives the model a very precise target.</p>
+</div>
+
+<div class="style-card">
+<h3>Part 4: Technical Parameters</h3>
+<p>Lighting, camera angle, depth of field, color palette. "Golden hour side lighting, shallow depth of field, shot from below" tells the model not just what to draw but how to draw it. In Midjourney, parameters like --ar 16:9 (aspect ratio), --chaos 20 (variation amount), and --style raw (less stylized output) go at the end after two hyphens.</p>
+</div>
+
+<h2>Midjourney V7: What Changed in 2026</h2>
+
+<p>Midjourney V7, released in early 2026, made two significant changes to prompt behavior. First, it significantly improved its handling of multi-character scenes, which were notoriously difficult in previous versions. You can now describe two or three distinct characters in the same scene with much better accuracy. Second, it reduced the model's tendency to over-stylize. Earlier versions often produced images that looked like Midjourney images regardless of what style you asked for. V7 follows style instructions more faithfully.</p>
+
+<p>What this means for your prompts: you can now be less heavy-handed with style language. V7 will follow a clean "studio product photography, white background, soft box lighting" prompt without you needing to add five additional style-enforcement words. Simpler prompts often outperform elaborate ones in V7.</p>
+
+<p>One caveat: Midjourney requires a paid subscription starting at $10 per month. There is no free tier beyond the initial trial prompts. If budget is a constraint, see the free alternatives section below.</p>
+
+<h2>Prompt Examples by Style Category</h2>
+
+<h3>Photorealistic Portraits</h3>
+<div class="code-box">Portrait of an older fisherman, weathered face, deep-set eyes, salt-and-pepper beard, wearing a heavy canvas jacket, standing on a wooden dock at sunset, warm backlight, shallow depth of field, Canon 5D Mark IV aesthetic, photojournalism style --ar 4:5 --style raw</div>
+
+<h3>Concept Art / Fantasy</h3>
+<div class="code-box">An ancient library carved into a living redwood tree, thousands of glowing books on curved wooden shelves, warm amber lantern light, spiral staircases of twisted roots, a lone scholar reading at the center, concept art for a fantasy game, detailed illustration style, ArtStation quality --ar 16:9</div>
+
+<h3>Product and Commercial</h3>
+<div class="code-box">A glass perfume bottle with copper accents, placed on dark marble, single dramatic side light, small water droplets on the glass, deep black background, high-end luxury cosmetics photography, studio product shot --ar 1:1 --style raw</div>
+
+<h3>Abstract and Experimental</h3>
+<div class="code-box">Fractal geometry meeting organic forms, a coral reef reimagined as a crystal cave, bioluminescent blues and teals, microscopic scale, scientific illustration style blended with surrealist painting, intricate detail --ar 3:2 --chaos 35</div>
+
+<h3>Architectural Visualization</h3>
+<div class="code-box">A minimalist Japanese tea house surrounded by a moss garden in autumn rain, architectural photography, wet stone path, mist, grey sky, shallow depth of field with focus on the entrance gate, Hiroshi Sugimoto influence --ar 16:9</div>
+
+<h2>Free Alternatives to Midjourney in 2026</h2>
+
+<table>
+<thead>
+<tr><th>Tool</th><th>Free Tier?</th><th>Best For</th><th>Quality vs Midjourney</th></tr>
+</thead>
+<tbody>
+<tr><td>Adobe Firefly</td><td>Yes (limited)</td><td>Commercial-safe images, Adobe workflow</td><td>Close for product/commercial</td></tr>
+<tr><td>Stable Diffusion (local)</td><td>Yes (hardware required)</td><td>Full control, no restrictions</td><td>Equal with right model/LoRA</td></tr>
+<tr><td>Leonardo AI</td><td>Yes (150 tokens/day)</td><td>Game art, character design</td><td>Strong for stylized work</td></tr>
+<tr><td>Bing Image Creator (DALL-E 3)</td><td>Yes (limited)</td><td>Quick photorealistic images</td><td>Good for photorealism</td></tr>
+<tr><td>Ideogram</td><td>Yes (limited)</td><td>Images with text, logos</td><td>Best for text-in-image</td></tr>
+</tbody>
+</table>
+
+<p>For most users who want free access to quality AI image generation, Leonardo AI's free tier is the strongest option. 150 generation tokens per day is enough for serious creative work if you use them thoughtfully rather than generating variations of mediocre prompts repeatedly.</p>
+
+<h2>The Most Common Prompt Mistakes (And How to Fix Them)</h2>
+
+<p><strong>Contradiction in the prompt:</strong> "A hyperrealistic oil painting" cannot exist because they are two different things. Pick one. If you want painterly with photorealistic detail, try "oil painting with hyperrealistic detail and texture" instead.</p>
+
+<p><strong>Too many competing subjects:</strong> "A woman, a cat, a mountain, a river, a sunset, and a village" forces the model to average everything. One primary subject with secondary elements that support it produces far stronger images.</p>
+
+<p><strong>Weak style language:</strong> "Beautiful" and "stunning" are nearly meaningless to image models. Replace them with visual specifics: "rich color palette", "dramatic chiaroscuro lighting", "razor-sharp detail in the foreground". Tell the model what beauty looks like in your image, not that it should exist.</p>
+
+<p><strong>Not specifying aspect ratio:</strong> The default square format is wrong for most uses. Use --ar 16:9 for landscape, --ar 9:16 for portrait (social media), --ar 4:5 for Instagram, --ar 3:2 for photography.</p>
+
+<div class="tip-box">
+<strong>The 30-second test:</strong> Read your prompt aloud. If you cannot picture the image as you read it, the model will not be able to either. A good prompt is a painting in words. If it is vague to you, it will be vague in the output.
+</div>
+
+<div class="cta-box">
+  <strong>Want 200 tested prompt templates across 15 style categories?</strong><br>
+  <a href="https://gogopaschal.gumroad.com" target="_blank">Get the DreamForge AI Prompt Library Bundle</a><br>
+  <p>Includes photorealism, concept art, product photography, abstract, architectural, character design, and more. Ready to paste into any AI image tool. 30-day money back guarantee, no questions asked.</p>
+</div>
+
+<p>The most important practice in AI art prompting is iteration with intention. Do not generate 50 variations hoping one will be good. Write one careful prompt, analyze what worked and what did not, adjust a single variable, and generate again. This approach produces better results faster and teaches you the craft in a way that random variation never will.</p>
+
+<footer>
+  <p>DreamForge AI covers AI image generation tools, techniques, and creative applications. Tool pricing and features accurate as of April 2026; check current pricing before subscribing to any tool. Midjourney pricing from midjourney.com, alternatives from their respective websites.</p>
+  <p><a href="/">Home</a> | <a href="/tools/">Tools</a> | <a href="/blog/">Blog</a></p>
+</footer>
+</body>
+</html>
